@@ -269,6 +269,54 @@ body {
   margin: 1rem 0;
   font-size: 0.92rem;
 }
+.study-time-hint {
+  background: #fffbeb;
+  border: 1px solid #f6e05e;
+  border-left: 4px solid var(--orange);
+  padding: 0.6rem 1rem;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  margin-bottom: 1rem;
+  font-size: 0.88rem;
+  color: var(--gray-700);
+}
+.topic-tier-header {
+  padding: 0.4rem 0.75rem !important;
+  cursor: default !important;
+  pointer-events: none;
+}
+.topic-tier-header:hover { background: transparent !important; }
+.tier-badge {
+  display: inline-block;
+  color: var(--white);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+.pdf-viewer-container {
+  margin-top: 1.5rem;
+  border: 2px solid var(--gray-200);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.pdf-viewer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 1rem;
+  background: var(--gray-100);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--gray-600);
+}
+.pdf-viewer-iframe {
+  width: 100%;
+  height: 600px;
+  border: none;
+  display: block;
+}
 
 /* ---- FLASHCARDS ---- */
 .flashcard-header {
