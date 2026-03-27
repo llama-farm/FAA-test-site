@@ -36,11 +36,11 @@
             <div class="stat-label">Study Topics</div>
           </div>
           <div class="stat-card">
-            <div class="stat-number">114</div>
+            <div class="stat-number">135</div>
             <div class="stat-label">Flash Cards</div>
           </div>
           <div class="stat-card">
-            <div class="stat-number">163</div>
+            <div class="stat-number">175</div>
             <div class="stat-label">Practice Questions</div>
           </div>
         </div>
@@ -51,10 +51,11 @@
         <div class="info-card">
           <h3>The Test</h3>
           <ul>
-            <li><strong>60 questions</strong>, 2 hours</li>
-            <li><strong>70%</strong> passing score (42 correct)</li>
+            <li><strong>65 total questions</strong> &mdash; 60 scored + 5 unscored pilot questions</li>
+            <li><strong>120 minutes</strong> (2 hours)</li>
+            <li><strong>70%</strong> passing score = <strong>42 correct</strong> out of 60 scored</li>
             <li>Multiple choice (A/B/C)</li>
-            <li>Aim for <strong>80%+</strong> to have margin</li>
+            <li>Aim for <strong>75%+ (45/60)</strong> to have a safety margin</li>
           </ul>
         </div>
         <div class="info-card">
@@ -86,7 +87,8 @@
             <tr><td><strong>Weather (UA.III)</strong></td><td><div class="weight-bar"><div class="weight-fill" style="width:5%;background:var(--orange)"></div></div></td><td style="text-align:right;font-weight:700;color:var(--orange)">5%</td></tr>
             <tr><td><strong>Loading &amp; Performance (UA.IV)</strong></td><td><div class="weight-bar"><div class="weight-fill" style="width:2%;background:var(--orange)"></div></div></td><td style="text-align:right;font-weight:700;color:var(--orange)">2%</td></tr>
           </table>
-          <p style="margin-top:0.75rem;font-size:0.88rem;color:var(--gray-500)"><strong>Strategy:</strong> Spend most time on Regulations and Operations (73% of the test). Airspace is 20% and often chart-based. Weather and Loading are lower-weight but still appear.</p>
+          <p style="margin-top:0.75rem;font-size:0.88rem;color:var(--gray-500)"><strong>&#9888; Blueprint change:</strong> In August 2025, the FAA announced the old UAG blueprint would become obsolete on September 29, 2025. The <em>subject matter</em> didn't change, but the <em>weighting</em> did. Older prep materials that give equal time to Weather and Regulations are now misweighted. Use the ACS for what to study, and these percentages for how much time to spend.</p>
+          <p style="margin-top:0.5rem;font-size:0.88rem;color:var(--gray-500)"><strong>Score strategy:</strong> <strong>Regulations + Airspace = ~41 of 60 scored questions (68%).</strong> That's where your score is won or lost. A candidate who masters Regulations and Airspace can miss most Weather/Loading questions and still pass comfortably. Best score-per-hour order: Regulations &rarr; Airspace &rarr; Operations &rarr; Weather &rarr; Loading.</p>
         </div>
       </div>
 
@@ -114,10 +116,13 @@
             <li>Go to <a href="https://faa.psiexams.com/faa/login" target="_blank" style="color:var(--blue);font-weight:600">PSI Exams (faa.psiexams.com)</a> to create an account and schedule your test</li>
             <li>Select <strong>"Unmanned Aircraft General (UAG)"</strong> as the exam type</li>
             <li>Choose a testing center and date (cost is approximately $175)</li>
-            <li>Bring a <strong>valid government-issued photo ID</strong> to the testing center</li>
-            <li>You may use an approved testing supplement (provided at the center) during the exam</li>
+            <li>Bring <strong>valid, current photo ID</strong> showing photo, date of birth, signature, and physical residential address. If your ID doesn't show your residential address, bring a supplemental address verification</li>
+            <li><strong>Arrive at least 15 minutes early</strong> for check-in and ID verification</li>
+            <li>An FAA testing supplement with charts, figures, and legends is provided at the center &mdash; you'll need it for figure-based questions</li>
+            <li>After you pass, go back into IACRA and file <strong>FAA Form 8710-13</strong> to complete your Remote Pilot Certificate application</li>
           </ol>
-          <p style="margin-top:0.5rem;font-size:0.9rem;color:var(--gray-500)"><strong>Tip:</strong> PSI also offers a free online practice test. Try it before your real test to get comfortable with the interface.</p>
+          <p style="margin-top:0.5rem;font-size:0.9rem;color:var(--gray-500)"><strong>Tip:</strong> Before test day, take the <strong>free PSI sample test</strong> (found in PSI's Exam Resources area) and review the <a href="uag_questions.pdf" target="_blank" style="color:var(--blue)">FAA sample question packet</a>. The testing supplement (FAA-CT-8080-2H) contains the figures, legends, and sectional chart excerpts you'll reference during the real exam.</p>
+          <p style="margin-top:0.25rem;font-size:0.9rem;color:var(--gray-500)"><strong>Phone support:</strong> If you prefer to schedule by phone, call PSI at <strong>844-704-1487</strong>.</p>
           <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:0.75rem">
             <a href="https://faa.psiexams.com/faa/login" target="_blank" class="btn btn-primary">Schedule Test at PSI &rarr;</a>
             <a href="https://faa.psiexams.com/faa/login" target="_blank" class="btn btn-outline">PSI Practice Test</a>
@@ -195,7 +200,7 @@
             <button class="btn btn-outline test-size-btn" data-size="20">20</button>
             <button class="btn btn-outline test-size-btn" data-size="30">30</button>
             <button class="btn btn-outline test-size-btn" data-size="60">60 (Full Exam)</button>
-            <button class="btn btn-outline test-size-btn" data-size="all">All 163</button>
+            <button class="btn btn-outline test-size-btn" data-size="all">All 175</button>
           </div>
           <h3>Category Filter</h3>
           <select id="testCategoryFilter" class="select-input">
@@ -289,7 +294,9 @@
         <table class="keyfacts-table">
           <thead><tr><th>Number</th><th>What It Means</th></tr></thead>
           <tbody>
-            <tr class="kf-highlight"><td>60 / 2 / 70</td><td>60 questions, 2 hours, 70% passing score</td></tr>
+            <tr class="kf-highlight"><td>65 / 60 / 120 / 70</td><td>65 total questions (60 scored + 5 unscored), 120 minutes, 70% = 42 correct to pass</td></tr>
+            <tr><td>45 / 60</td><td>Target 75% (45 correct) for a comfortable safety margin</td></tr>
+            <tr class="kf-highlight"><td>41 of 60</td><td>Regulations (48%) + Airspace (20%) = ~41 scored questions combined &mdash; this is where the exam is won or lost</td></tr>
             <tr><td>55 lb</td><td>Maximum takeoff weight for a small UAS under Part 107</td></tr>
             <tr><td>100 mph / 87 knots</td><td>Maximum groundspeed</td></tr>
             <tr><td>400 ft AGL</td><td>Normal maximum altitude</td></tr>
@@ -549,13 +556,19 @@
             <strong>Forgetting anti-collision lights can be dimmed but not OFF.</strong> Safety requires dimming sometimes, but never extinguish.
           </div>
           <div class="kf-trap">
-            <strong>Mixing up who submits the DoC.</strong> The manufacturer submits it. The pilot uses compliant aircraft.
+            <strong>Mixing up who submits the DoC &mdash; THE most-missed question on the exam.</strong> FAA quarterly stats show DoC questions (ACS code UA.I.E.K13) have been the single most frequently missed item across 5+ consecutive quarters (2Q24 through 2Q25). The manufacturer/designer submits the DoC, not the pilot. Know Categories 1-4, MoC, DoC, exposed rotating parts, and the Category 2 vs 3 differences cold.
           </div>
           <div class="kf-trap">
             <strong>Confusing 0.55 lb with the Part 107 threshold.</strong> 0.55 lb is for Category 1 over people and registration. 55 lb is the Part 107 max.
           </div>
           <div class="kf-trap">
             <strong>Assuming Category 3 can fly over crowds.</strong> It can't. Only Categories 1 and 2 (and 4) can fly over open-air assemblies.
+          </div>
+          <div class="kf-trap">
+            <strong>Studying with old-blueprint weighting.</strong> Before September 2025, Weather was 11-16% and Loading was 7-11%. Now Weather is 5% and Loading is 2%. If your prep course gives equal time to Weather and Regulations, it's using the old blueprint &mdash; you'll over-study low-yield topics and under-study the 48% Regulations block.
+          </div>
+          <div class="kf-trap">
+            <strong>Not knowing 5 questions are unscored.</strong> The test has 65 questions total: 60 scored and 5 unscored pilot/validation questions. You won't know which are which. Don't panic if a question seems unusually hard or off-topic &mdash; it might be one of the 5 unscored items.
           </div>
         </div>
       </div>

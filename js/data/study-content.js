@@ -26,6 +26,7 @@ const STUDY_TOPICS = [
     content: `
       <h2>Part 107 Regulations</h2>
       <div class="study-callout"><strong>ACS Area UA.I &mdash; 48% of the exam (~29 questions).</strong> This is by far the highest-yield topic. Know the RPIC's responsibilities, operating limits, night rules, Remote ID, operations over people, and what can/cannot be waived.</div>
+      <div class="study-callout" style="background:var(--red-pale);border-left-color:var(--red)"><strong>&#9888; Blueprint update:</strong> In August 2025, the FAA announced the old UAG test blueprint would become obsolete on September 29, 2025. The subject matter didn't change, but the weighting did. Older prep materials gave Weather 11-16% and Loading 7-11%. The current UAG bulletin sets Regulations at <strong>48%</strong> — nearly half the test. If your study materials treat all areas equally, they're using the old blueprint. <strong>Regulations + Airspace = ~41 of 60 scored questions.</strong> That's where the exam is won or lost.</div>
 
       <h3>The Remote Pilot in Command (RPIC)</h3>
       <ul>
@@ -150,7 +151,7 @@ const STUDY_TOPICS = [
         <li><strong>Categories 2 &amp; 3</strong> use kinetic energy thresholds (11 ft-lb and 25 ft-lb respectively) to set maximum injury potential on impact. The manufacturer must test and submit a Declaration of Compliance proving the aircraft meets these thresholds. Category 3 adds the restriction that you <strong>cannot</strong> fly over open-air assemblies (concerts, sporting events, etc.).</li>
         <li><strong>Category 4</strong> is for larger, more capable aircraft that have an FAA airworthiness certificate — similar to manned aircraft certification. This is rare in current Part 107 operations.</li>
       </ul>
-      <p><strong>Exam tip:</strong> Questions often test whether you know that the <em>pilot</em> doesn't submit the DoC — the <em>manufacturer</em> does. The pilot's job is to verify their aircraft is listed on an accepted DoC and that it's properly labeled.</p>
+      <p><strong>&#128680; MOST-MISSED QUESTION ON THE EXAM:</strong> FAA quarterly stats show that DoC-related questions (ACS code UA.I.E.K13) have been the <strong>single most frequently missed item</strong> across five consecutive quarters (2Q24 through 2Q25). This is a flashing red sign. Know: who submits the DoC (manufacturer, not pilot), what a Means of Compliance is, the Category 2 vs 3 kinetic energy thresholds (11 vs 25 ft-lb), exposed rotating parts for Category 1, and that Category 3 cannot fly over open-air assemblies. If you study one thing extra, make it this.</p>
     `
   },
 
@@ -535,6 +536,9 @@ const STUDY_TOPICS = [
         <li>Blue segmented line = Class D; solid magenta/blue = Class B or C</li>
         <li>Fuzzy magenta or blue boundaries often relate to Class E bases</li>
       </ul>
+
+      <h3>The FAA Testing Supplement (FAA-CT-8080-2H)</h3>
+      <p>On the real exam, chart-based questions reference figures from the <strong>FAA Airman Knowledge Testing Supplement</strong> (FAA-CT-8080-2H). This booklet is provided at the testing center and contains sectional chart excerpts, airport diagrams, legends, and other graphics. You won't need to bring it — but you <strong>must</strong> be comfortable reading it. The FAA sample question packet uses the same figures. Practice with those before test day so you're not seeing sectional charts for the first time under the clock.</p>
 
       <h3>How to Attack a Chart Question</h3>
       <ol>

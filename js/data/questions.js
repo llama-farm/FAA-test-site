@@ -1813,6 +1813,128 @@ const QUESTIONS = [
     ],
     correctIndex: 1,
     explanation: "The RPIC may deviate from Part 107 rules only to the extent necessary to meet an in-flight emergency."
+  },
+
+  // ===== EXAM FORMAT, BLUEPRINT & STRATEGY QUESTIONS =====
+  {
+    id: "s1", source: "Added", category: "regulations",
+    question: "How many total questions are presented on the UAG knowledge test?",
+    options: ["60.", "65.", "70."],
+    correctIndex: 1,
+    explanation: "The UAG test has 65 total questions: 60 scored and 5 unscored pilot/validation questions. You won't know which are unscored."
+  },
+  {
+    id: "s2", source: "Added", category: "regulations",
+    question: "What percentage of the UAG exam is devoted to Regulations (ACS Area UA.I)?",
+    options: ["25%.", "36%.", "48%."],
+    correctIndex: 2,
+    explanation: "Regulations is 48% of the exam — nearly half. It's by far the highest-weight content area."
+  },
+  {
+    id: "s3", source: "Added", category: "regulations",
+    question: "Under the current UAG bulletin, approximately how many scored questions come from Regulations and Airspace combined?",
+    options: ["About 25 of 60.", "About 41 of 60.", "About 50 of 60."],
+    correctIndex: 1,
+    explanation: "Regulations (48% = ~29) + Airspace (20% = ~12) = about 41 of 60 scored questions."
+  },
+  {
+    id: "s4", source: "Added", category: "ops-over-people",
+    question: "According to FAA quarterly statistics, which ACS code has been the most frequently missed on the UAG exam for multiple consecutive quarters?",
+    options: [
+      "UA.I.E.K13 — Declaration of Compliance (DoC).",
+      "UA.II.A.K1 — Airspace classification.",
+      "UA.III.B.K1 — Weather sources."
+    ],
+    correctIndex: 0,
+    explanation: "DoC questions (UA.I.E.K13) have been the single most-missed item for 5+ consecutive quarters (2Q24 through 2Q25). Study Categories 1-4, MoC, DoC, and who submits them."
+  },
+  {
+    id: "s5", source: "Added", category: "ops-over-people",
+    question: "Who submits a Declaration of Compliance (DoC) to the FAA?",
+    options: [
+      "The remote pilot in command.",
+      "The manufacturer, designer, or modifier of the aircraft.",
+      "The FAA's Unmanned Aircraft Systems Office."
+    ],
+    correctIndex: 1,
+    explanation: "The manufacturer/designer/modifier submits the DoC. The pilot's job is to verify the aircraft is on an FAA-accepted DoC and properly labeled."
+  },
+  {
+    id: "s6", source: "Added", category: "ops-over-people",
+    question: "What distinguishes Category 2 from Category 3 for operations over people?",
+    options: [
+      "Category 2 uses 11 ft-lb threshold; Category 3 uses 25 ft-lb and cannot fly over open-air assemblies.",
+      "Category 2 requires airworthiness certification; Category 3 does not.",
+      "Category 2 is for aircraft under 1 lb; Category 3 is for aircraft under 5 lb."
+    ],
+    correctIndex: 0,
+    explanation: "Category 2 has an 11 ft-lb kinetic energy threshold, Category 3 has 25 ft-lb. Category 3 adds the restriction that it cannot fly over open-air assemblies."
+  },
+  {
+    id: "s7", source: "Added", category: "ops-over-people",
+    question: "A drone manufacturer has NOT submitted a Declaration of Compliance for their aircraft. Under what operations-over-people category can this drone operate?",
+    options: [
+      "Category 1, if it weighs 0.55 lb or less and has no exposed laceration-risk rotating parts.",
+      "Category 2, if the pilot verifies it meets the 11 ft-lb threshold.",
+      "Category 3, with an RPIC waiver."
+    ],
+    correctIndex: 0,
+    explanation: "Category 1 doesn't require a DoC — just that the aircraft weighs ≤0.55 lb and has no exposed rotating parts that could lacerate skin. Categories 2 and 3 require an FAA-accepted DoC."
+  },
+  {
+    id: "s8", source: "Added", category: "regulations",
+    question: "What changed about the UAG test with the FAA's August 2025 announcement?",
+    options: [
+      "The subject matter changed significantly and new topics were added.",
+      "The test format changed from multiple choice to practical demonstration.",
+      "The subject matter didn't change, but the weighting/emphasis across content areas was updated."
+    ],
+    correctIndex: 2,
+    explanation: "The FAA said the old blueprint would be obsolete after September 29, 2025. The subject matter stayed the same (use the ACS), but the emphasis/weighting changed (use the new bulletin)."
+  },
+  {
+    id: "s9", source: "Added", category: "airspace",
+    question: "What is the FAA testing supplement (FAA-CT-8080-2H)?",
+    options: [
+      "A study guide sold by the FAA for exam preparation.",
+      "A booklet provided at the testing center containing charts, figures, legends, and diagrams referenced by figure-based exam questions.",
+      "A software tool used by testing centers to administer the exam."
+    ],
+    correctIndex: 1,
+    explanation: "The FAA testing supplement contains sectional chart excerpts, airport diagrams, legends, and other figures. It's provided at the testing center and is essential for answering chart-based questions."
+  },
+  {
+    id: "s10", source: "Added", category: "airspace",
+    question: "On a sectional chart, what does the fraction '80/25' inside a Class B boundary mean?",
+    options: [
+      "The airspace is 80 nautical miles wide and 25 nautical miles tall.",
+      "The ceiling is 8,000 ft MSL and the floor is 2,500 ft MSL.",
+      "The airspace is active from 0800 to 2500 Zulu."
+    ],
+    correctIndex: 1,
+    explanation: "Class B shelf fractions show ceiling/floor in hundreds of feet MSL. 80/25 means ceiling at 8,000 ft MSL, floor at 2,500 ft MSL."
+  },
+  {
+    id: "s11", source: "Added", category: "regulations",
+    question: "After passing the UAG knowledge test, what must you do in IACRA?",
+    options: [
+      "File FAA Form 8710-13 to apply for your Remote Pilot Certificate.",
+      "Schedule a practical flight test.",
+      "Submit proof of drone insurance."
+    ],
+    correctIndex: 0,
+    explanation: "After passing, return to IACRA and file FAA Form 8710-13 to complete your Remote Pilot Certificate application."
+  },
+  {
+    id: "s12", source: "Added", category: "ops-over-people",
+    question: "What are the required Remote ID broadcast elements?",
+    options: [
+      "Only the pilot's name and certificate number.",
+      "Drone ID, location, altitude, velocity, control station location, time mark, and emergency status.",
+      "Only GPS coordinates and battery level."
+    ],
+    correctIndex: 1,
+    explanation: "Standard Remote ID must broadcast: drone ID (serial number or session ID), drone location, altitude, velocity, control station location, time mark, and emergency status."
   }
 ];
 

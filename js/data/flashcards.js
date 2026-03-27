@@ -121,7 +121,32 @@ const FLASHCARDS = [
   { id: 111, q: "If an FAA-accepted DoC is rescinded, can you still fly under that category?", a: "No — the aircraft cannot operate under a rescinded DoC.", cat: "ops-over-people" },
   { id: 112, q: "Must a drone with standard Remote ID stay inside a FRIA?", a: "No — FRIAs are only for drones WITHOUT Remote ID. Standard Remote ID drones can fly anywhere (subject to other rules).", cat: "ops-over-people" },
   { id: 113, q: "What type of Remote ID is built into the drone?", a: "Standard Remote ID.", cat: "ops-over-people" },
-  { id: 114, q: "What is a Remote ID broadcast module?", a: "An add-on device for aircraft that don't have built-in Remote ID.", cat: "ops-over-people" }
+  { id: 114, q: "What is a Remote ID broadcast module?", a: "An add-on device for aircraft that don't have built-in Remote ID.", cat: "ops-over-people" },
+
+  // ===== EXAM STRATEGY & BLUEPRINT FLASHCARDS =====
+  { id: 115, q: "How many TOTAL questions are on the UAG test?", a: "65 total: 60 scored questions + 5 unscored pilot/validation questions. You won't know which are which.", cat: "regulations" },
+  { id: 116, q: "How many correct answers do you need to pass the UAG?", a: "42 correct out of 60 scored questions (70%). Aim for 45/60 (75%) for a safety margin.", cat: "regulations" },
+  { id: 117, q: "What are the current ACS exam weight percentages?", a: "Regulations 48%, Operations 25%, Airspace 20%, Weather 5%, Loading & Performance 2%.", cat: "regulations" },
+  { id: 118, q: "How many scored questions come from Regulations + Airspace combined?", a: "About 41 of 60 scored questions (68%). This is where the exam is won or lost.", cat: "regulations" },
+  { id: 119, q: "What changed about the UAG test blueprint in 2025?", a: "The FAA announced the old blueprint would be obsolete after September 29, 2025. Subject matter didn't change, but weighting did — Weather dropped from 11-16% to 5%, Loading from 7-11% to 2%, and Regulations rose to 48%.", cat: "regulations" },
+  { id: 120, q: "What is the best score-per-hour study order for the UAG?", a: "1) Regulations (48%), 2) Airspace (20%), 3) Operations (25%), 4) Weather (5%), 5) Loading (2%). Slightly overweight Airspace because chart questions are brittle — you either know them or you don't.", cat: "regulations" },
+  { id: 121, q: "What is the single most frequently missed question topic on the UAG exam?", a: "Declaration of Compliance (DoC) — ACS code UA.I.E.K13. It's been the #1 most-missed item for 5+ consecutive quarters (2Q24 through 2Q25).", cat: "ops-over-people" },
+  { id: 122, q: "What is the FAA testing supplement (FAA-CT-8080-2H)?", a: "A booklet provided at the testing center containing sectional chart excerpts, airport diagrams, legends, and figures referenced by chart-based exam questions.", cat: "airspace" },
+  { id: 123, q: "What form do you file in IACRA after passing the UAG?", a: "FAA Form 8710-13 to complete your Remote Pilot Certificate application.", cat: "regulations" },
+  { id: 124, q: "What 4 things must your ID show at the PSI testing center?", a: "Photo, date of birth, signature, and physical residential address.", cat: "regulations" },
+
+  // ===== DEEPER REGULATIONS FLASHCARDS =====
+  { id: 125, q: "Inside the Regulations bucket, what sub-topics does the ACS cover?", a: "General, Operating Rules, Remote Pilot Certification, Waivers, Operations Over People, and Remote Identification.", cat: "regulations" },
+  { id: 126, q: "Can the RPIC reduce anti-collision light intensity at night?", a: "Yes — the RPIC may reduce intensity if it's in the interest of safety, but may NEVER extinguish the lights entirely.", cat: "regulations" },
+  { id: 127, q: "What is the ADS-B/transponder rule for small UAS?", a: "Small UAS operating under Part 107 are prohibited from operating with ADS-B Out or transponder equipment unless required by ATC.", cat: "regulations" },
+  { id: 128, q: "How long does an FAA waiver take to process?", a: "Processing can take 90+ days. Waivers are operation-specific — they don't grant blanket permission.", cat: "regulations" },
+  { id: 129, q: "What weight requires FAA drone registration?", a: "Any drone weighing more than 0.55 lb (250g) must be registered in DroneZone. Registration is valid for 3 years and costs $5.", cat: "regulations" },
+  { id: 130, q: "What are the Remote ID required broadcast elements at a high level?", a: "Drone ID (serial number or session ID), drone location, altitude, velocity, control station location, time mark, and emergency status indication.", cat: "ops-over-people" },
+  { id: 131, q: "What does LAANC stand for and what does it do?", a: "Low Altitude Authorization and Notification Capability. Provides near-real-time airspace authorization for Part 107 operations in controlled airspace, based on pre-published UAS Facility Maps.", cat: "airspace" },
+  { id: 132, q: "What does a zero-ceiling grid on a UAS Facility Map mean?", a: "No LAANC authorization is available — you must apply manually through DroneZone, and approval near active runways is unlikely.", cat: "airspace" },
+  { id: 133, q: "What is the difference between authorization and communication in controlled airspace?", a: "Authorization (via LAANC or DroneZone) permits you to be in the airspace. It does NOT mean ATC is watching you. You must still see and avoid all traffic.", cat: "airspace" },
+  { id: 134, q: "What does the magenta shading on a sectional chart represent?", a: "Class E airspace starting at 700 ft AGL. Outside this shading, Class E typically starts at 1,200 ft AGL.", cat: "airspace" },
+  { id: 135, q: "On a sectional chart, what do the fractions inside Class B boundaries mean (e.g., 100/30)?", a: "Ceiling/floor in hundreds of feet MSL. 100/30 = ceiling at 10,000 ft MSL, floor at 3,000 ft MSL.", cat: "airspace" }
 ];
 
 const FLASHCARD_CATEGORIES = {
