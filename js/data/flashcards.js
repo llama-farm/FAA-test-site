@@ -133,5 +133,8 @@ const FLASHCARD_CATEGORIES = {
   "physiology": "Physiological Factors",
   "adm": "Decision-Making & ADM",
   "airports": "Airport Operations",
-  "ops-over-people": "Ops Over People & Remote ID"
+  "ops-over-people": "Ops Over People & Remote ID",
+  "crm": "Crew Resource Management",
+  "emergency": "Emergency Procedures",
+  "maintenance": "Maintenance & Preflight"
 };
