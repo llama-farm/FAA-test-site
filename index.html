@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAA Part 107 Study Guide</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="top-nav">
+    <div class="nav-brand">
+      <span class="nav-icon">&#9992;</span>
+      <span class="nav-title">Part 107 Study</span>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+      <li><a href="#study" class="nav-link" data-section="study">Study</a></li>
+      <li><a href="#flashcards" class="nav-link" data-section="flashcards">Flash Cards</a></li>
+      <li><a href="#test" class="nav-link" data-section="test">Practice Test</a></li>
+      <li><a href="#progress" class="nav-link" data-section="progress">Progress</a></li>
+    </ul>
+  </nav>
+
+  <main class="main-content">
+    <!-- HOME -->
+    <section id="home" class="section active">
+      <div class="hero">
+        <h1>FAA Part 107 Remote Pilot</h1>
+        <p class="hero-sub">Study Guide &amp; Practice Tests</p>
+        <p class="hero-desc">Everything you need to pass the Unmanned Aircraft General (UAG) knowledge test. Study the material, drill flashcards, and take practice tests.</p>
+        <div class="hero-stats">
+          <div class="stat-card">
+            <div class="stat-number">12</div>
+            <div class="stat-label">Study Topics</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">47</div>
+            <div class="stat-label">Flash Cards</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">76</div>
+            <div class="stat-label">Practice Questions</div>
+          </div>
+        </div>
+        <a href="#study" class="btn btn-primary btn-lg">Start Studying</a>
+      </div>
+
+      <div class="home-grid">
+        <div class="info-card">
+          <h3>The Test</h3>
+          <ul>
+            <li><strong>60 questions</strong>, 2 hours</li>
+            <li><strong>70%</strong> passing score (42 correct)</li>
+            <li>Multiple choice (A/B/C)</li>
+            <li>Aim for <strong>80%+</strong> to have margin</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h3>Key Numbers</h3>
+          <table class="mini-table">
+            <tr><td>55 lb</td><td>Max takeoff weight</td></tr>
+            <tr><td>400 ft AGL</td><td>Max altitude</td></tr>
+            <tr><td>100 mph</td><td>Max groundspeed</td></tr>
+            <tr><td>3 SM</td><td>Min visibility</td></tr>
+            <tr><td>500/2000 ft</td><td>Cloud clearance</td></tr>
+          </table>
+        </div>
+        <div class="info-card">
+          <h3>Reference PDFs</h3>
+          <p>Open the official FAA materials:</p>
+          <a href="remote_pilot_study_guide.pdf" target="_blank" class="btn btn-outline">FAA Study Guide</a>
+          <a href="uag_questions.pdf" target="_blank" class="btn btn-outline" style="margin-top:0.5rem">UAG Sample Questions</a>
+        </div>
+      </div>
+
+      <div class="home-grid" style="margin-top:1.5rem">
+        <div class="info-card" style="grid-column: 1 / -1">
+          <h3>ACS Exam Weighting &mdash; Where to Focus Your Study Time</h3>
+          <p style="margin-bottom:0.75rem;color:var(--gray-500);font-size:0.9rem">The FAA test draws questions based on these Airman Certification Standards (ACS) content area weights:</p>
+          <table class="mini-table">
+            <tr><td style="width:40%"><strong>Regulations (UA.I)</strong></td><td><div class="weight-bar"><div class="weight-fill" style="width:48%;background:var(--blue)"></div></div></td><td style="width:60px;text-align:right;font-weight:700;color:var(--blue)">48%</td></tr>
+            <tr><td><strong>Operations (UA.V)</strong></td><td><div class="weight-bar"><div class="weight-fill" style="width:25%;background:var(--blue)"></div></div></td><td style="text-align:right;font-weight:700;color:var(--blue)">25%</td></tr>
+            <tr><td><strong>Airspace &amp; Requirements (UA.II)</strong></td><td><div class="weight-bar"><div class="weight-fill" style="width:20%;background:var(--blue)"></div></div></td><td style="text-align:right;font-weight:700;color:var(--blue)">20%</td></tr>
+            <tr><td><strong>Weather (UA.III)</strong></td><td><div class="weight-bar"><div class="weight-fill" style="width:5%;background:var(--orange)"></div></div></td><td style="text-align:right;font-weight:700;color:var(--orange)">5%</td></tr>
+            <tr><td><strong>Loading &amp; Performance (UA.IV)</strong></td><td><div class="weight-bar"><div class="weight-fill" style="width:2%;background:var(--orange)"></div></div></td><td style="text-align:right;font-weight:700;color:var(--orange)">2%</td></tr>
+          </table>
+          <p style="margin-top:0.75rem;font-size:0.88rem;color:var(--gray-500)"><strong>Strategy:</strong> Spend most time on Regulations and Operations (73% of the test). Airspace is 20% and often chart-based. Weather and Loading are lower-weight but still appear.</p>
+        </div>
+      </div>
+
+      <div class="home-grid" style="margin-top:1.5rem">
+        <div class="info-card" style="grid-column: 1 / -1">
+          <h3>Getting Started &mdash; IACRA &amp; Your FTN</h3>
+          <p>Before you take the FAA knowledge test, you need an <strong>FAA Tracking Number (FTN)</strong>. Get one by creating a profile in IACRA:</p>
+          <ol style="margin:0.75rem 0 0.75rem 1.5rem">
+            <li>Go to <a href="https://iacra.faa.gov/IACRA/Default.aspx" target="_blank" style="color:var(--blue);font-weight:600">IACRA (iacra.faa.gov)</a></li>
+            <li>Click <strong>"Register"</strong> to create a new account (or sign in if returning)</li>
+            <li>Complete your profile to get your <strong>FTN</strong></li>
+            <li>Your FTN will be printed on your Airman Knowledge Test Report (AKTR) after you pass</li>
+            <li>After passing the UAG test, return to IACRA to complete your Remote Pilot Certificate application</li>
+          </ol>
+          <a href="https://iacra.faa.gov/IACRA/Default.aspx" target="_blank" class="btn btn-primary" style="margin-top:0.25rem">Open IACRA &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- STUDY -->
+    <section id="study" class="section">
+      <div class="study-layout">
+        <aside class="study-sidebar">
+          <h3>Topics</h3>
+          <ul class="topic-list" id="topicList"></ul>
+        </aside>
+        <div class="study-main" id="studyContent">
+          <div class="study-placeholder">
+            <h2>Select a topic to begin</h2>
+            <p>Choose a study topic from the sidebar to review the material.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FLASHCARDS -->
+    <section id="flashcards" class="section">
+      <div class="flashcard-header">
+        <h2>Flash Cards</h2>
+        <div class="flashcard-controls">
+          <select id="fcCategoryFilter" class="select-input">
+            <option value="all">All Categories</option>
+          </select>
+          <button class="btn btn-outline" id="fcShuffle">Shuffle</button>
+          <button class="btn btn-outline" id="fcReset">Reset Progress</button>
+        </div>
+      </div>
+      <div class="flashcard-progress">
+        <div class="progress-bar"><div class="progress-fill" id="fcProgressFill"></div></div>
+        <span class="progress-text" id="fcProgressText">0 / 47 mastered</span>
+      </div>
+      <div class="flashcard-container" id="flashcardContainer">
+        <div class="flashcard" id="flashcard">
+          <div class="flashcard-inner">
+            <div class="flashcard-front">
+              <p id="fcQuestion"></p>
+              <span class="flip-hint">Click or press Space to flip</span>
+            </div>
+            <div class="flashcard-back">
+              <p id="fcAnswer"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flashcard-nav">
+        <button class="btn btn-study-more" id="fcStudyMore">Study More</button>
+        <span class="fc-counter" id="fcCounter">1 / 47</span>
+        <button class="btn btn-know-it" id="fcKnowIt">Know It</button>
+      </div>
+      <div class="flashcard-key-hints">
+        <span>&#8592; Study More</span>
+        <span>Space: Flip</span>
+        <span>Know It &#8594;</span>
+      </div>
+    </section>
+
+    <!-- TEST -->
+    <section id="test" class="section">
+      <div id="testConfig" class="test-config">
+        <h2>Practice Test</h2>
+        <p>Test your knowledge with randomized questions from the FAA sample questions and practice materials.</p>
+        <div class="test-options">
+          <h3>Number of Questions</h3>
+          <div class="btn-group">
+            <button class="btn btn-outline test-size-btn" data-size="10">10</button>
+            <button class="btn btn-outline test-size-btn" data-size="20">20</button>
+            <button class="btn btn-outline test-size-btn" data-size="30">30</button>
+            <button class="btn btn-outline test-size-btn" data-size="all">All 76</button>
+          </div>
+          <h3>Category Filter</h3>
+          <select id="testCategoryFilter" class="select-input">
+            <option value="all">All Categories</option>
+          </select>
+          <button class="btn btn-primary btn-lg" id="startTest" style="margin-top:1.5rem">Start Test</button>
+        </div>
+      </div>
+      <div id="testActive" class="test-active" style="display:none">
+        <div class="test-header">
+          <span class="test-progress" id="testProgress">Question 1 of 10</span>
+          <span class="test-score-live" id="testScoreLive"></span>
+        </div>
+        <div class="test-question-card" id="testQuestionCard">
+          <p class="test-question" id="testQuestion"></p>
+          <div class="test-note" id="testNote" style="display:none"></div>
+          <div class="test-options-list" id="testOptions"></div>
+          <div class="test-feedback" id="testFeedback" style="display:none"></div>
+          <button class="btn btn-primary" id="testNext" style="display:none">Next Question</button>
+        </div>
+      </div>
+      <div id="testResults" class="test-results" style="display:none">
+        <div class="results-header">
+          <h2 id="resultsTitle"></h2>
+          <div class="results-score" id="resultsScore"></div>
+        </div>
+        <div class="results-breakdown" id="resultsBreakdown"></div>
+        <div class="results-actions">
+          <button class="btn btn-primary" id="reviewTest">Review Answers</button>
+          <button class="btn btn-outline" id="newTest">New Test</button>
+        </div>
+        <div class="review-container" id="reviewContainer" style="display:none"></div>
+      </div>
+    </section>
+
+    <!-- PROGRESS -->
+    <section id="progress" class="section">
+      <h2>Your Progress</h2>
+      <div class="progress-grid">
+        <div class="progress-card">
+          <h3>Study Topics</h3>
+          <div class="progress-ring-container">
+            <div class="progress-big-number" id="progressStudy">0 / 12</div>
+          </div>
+          <p>topics completed</p>
+        </div>
+        <div class="progress-card">
+          <h3>Flash Cards</h3>
+          <div class="progress-ring-container">
+            <div class="progress-big-number" id="progressCards">0 / 47</div>
+          </div>
+          <p>cards mastered</p>
+        </div>
+        <div class="progress-card">
+          <h3>Best Score</h3>
+          <div class="progress-ring-container">
+            <div class="progress-big-number" id="progressBest">--</div>
+          </div>
+          <p>on practice tests</p>
+        </div>
+      </div>
+      <h3>Test History</h3>
+      <div class="test-history-table-wrap">
+        <table class="test-history-table" id="testHistoryTable">
+          <thead>
+            <tr><th>Date</th><th>Questions</th><th>Score</th><th>Result</th></tr>
+          </thead>
+          <tbody id="testHistoryBody">
+            <tr><td colspan="4" class="empty-state">No tests taken yet</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h3>Weak Areas</h3>
+      <div id="weakAreas" class="weak-areas">
+        <p class="empty-state">Take a practice test to see your weak areas.</p>
+      </div>
+      <button class="btn btn-outline btn-danger" id="resetAll" style="margin-top:2rem">Reset All Progress</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built for FAA Part 107 exam preparation. Not affiliated with the FAA. Always verify information with official FAA sources.</p>
+  </footer>
+
+  <script src="js/data/study-content.js"></script>
+  <script src="js/data/flashcards.js"></script>
+  <script src="js/data/questions.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/study.js"></script>
+  <script src="js/flashcards-ui.js"></script>
+  <script src="js/test.js"></script>
+  <script src="js/progress.js"></script>
+</body>
+</html>
